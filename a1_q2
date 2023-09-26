@@ -1,0 +1,27 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+    int a;
+    cout<<"enter student percentage: ",a;
+    cin>>a;
+    if (90<=a<100)
+    {
+        cout<<"excellent";
+    }  
+    else if (80<=a&&a<90)
+    {
+        cout<<"good";
+    }
+    else if (70<=a&&a<80)
+    {
+        cout<<"average";
+    }
+    else if (60<=a&&a<70)
+    {
+        cout<<"pass";
+    }
+    else cout<<"try hard";
+    return 0; 
+}
