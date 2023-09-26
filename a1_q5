@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int a,digit=0;
+    cout<<"enter the number you wnat to know how much dgits is in it: ",a;
+    cin>>a;
+    while(a>0){
+        a/=10;
+        digit++;
+    }
+    cout<<"number of digits in are: "<<digit;
+    return 0;
+}
