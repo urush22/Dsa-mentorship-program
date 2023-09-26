@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int i,j,count=0;
+    cout<<"enter a number ",i;
+    cin>>i;
+    for(j=2;j<i;j++){
+        if(i%j==0){
+        cout<<"the number is not prime"; 
+        break;
+       if(i%j!=0){
+        cout<<"the number is prime";
+        break;
+       }
+        }
+    }
+    return 0;
+}
