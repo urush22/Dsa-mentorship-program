@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int min,max;
+    cout<<"enter the min value from which prime number series should start: ",min;
+    cin>>min;
+    cout<<"\nenter the max value from which prime number series should start: ",max;
+    cin>>max;
+    for (int i=min;i<=max;i++)
+    {
+        bool prime=true;
+        for (int j=2;j<=i/2;j++)
+        {
+            if(i%j==0){
+                prime=false;
+            }
+            break;
+        }
+        if (prime==true)
+        {
+            cout<<i<<endl;
+        }
+    }
+    return 0;
+}
