@@ -17,5 +17,8 @@ int main(){
         }
         maxnum++;
     }
+    int gcd;
+    gcd=(a*b)/maxnum;
+    cout<<"\ngcd of "<<a<<" and "<<b<<" is: "<<gcd;
     return 0;
 }
